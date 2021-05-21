@@ -1,0 +1,266 @@
+/* Style the navigation menu */
+
+.topheader {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topheader #solutions {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topheader a {
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topheader a.icon {
+  background: black;
+  color: #fff;
+  display: block;
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 0;
+  height: auto;
+}
+
+/* Add a grey background color on mouse-over */
+.topheader a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topheader #solutions a{
+  font-size: 10px;
+  text-align: center;
+  border-bottom: solid 1px #aaa;
+}
+
+/* Style the active link (or home/logo) */
+.topheader .logo img{
+  width: 20px;
+}
+.topheader{
+  height: auto;
+}
+
+.getstarted{
+  display: none;
+}
+.heading{
+  margin-right: 20vw;
+  margin-left: 10vw;
+  margin-top: 80px;
+}
+.heading .mainheading{
+  font-size: 50px;
+}
+.heading .sideheading, .sideheading1{
+  font-size: 4vw;
+  margin-top: -20px;
+  font-weight: 200;
+}
+.mainvideo{
+  width: 100%;
+  overflow: hidden;
+}
+.mainvideo video{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  left: 0;
+}
+.overlay{
+  display: none;
+}
+.div2{
+  overflow: hidden;
+  width: 100%;
+  margin-left: 5vw;
+  margin-right: 10vw;
+}
+.div2 .div21 h3{
+  font-size: 50px;
+}
+.div22{
+  margin-right: 50px;
+}
+.div2 .div22 .div2211{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.div2 .div22 .div2btn .div2btn1{
+ width: 60vw;
+ font-size: 15px;
+ padding: 15px;
+ border: solid 1px #ddd;
+ border-radius: 10px;
+ margin-bottom: 20px; 
+}
+.div3{
+  margin-left: 10vw;
+  margin-top: 60px;
+}
+.div3 .div31 h3{
+  font-size: 25px;
+  font-weight: 400;
+}
+.div3 .div32 h3{
+  font-size: 23px;
+  font-weight: 400;
+  padding: 10px;
+  border-bottom: solid 1px #ddd;
+}
+.div4{
+  display: none;
+}
+.div5{
+  background-color: #ddd;
+}
+.div5 .div51 .div511 li{
+  list-style-type: none;
+  font-size: 4vw;
+  position: relative;
+}
+.div51111{
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border: solid 1px #eeeeee;
+  border-radius: 50%;
+  display: inline;
+  align-items: center;
+}
+.div5111 h3{
+  display: inline-block;
+}
+.div5111:hover{
+  animation-name: k2;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.div5 .btn5{
+  align-items: center;
+}
+.div5 .btn51{
+text-align: center;
+  width: 60vw;
+ font-size: 15px;
+ padding: 15px;
+ border: solid 1px #ddd;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+.div5 .video5 video{
+  width: 100%;
+  height: 100vw;
+
+}
+.image12{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.6;
+  left: 0;
+  display: block;
+}
+
+.div6{
+  width: 100%;
+   left: 0;
+    right: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100000;
+  padding: 10vw;
+
+}
+.overlay1
+{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  height: auto;
+  background-color: #000000;
+  mix-blend-mode: overlay;
+}
+.div6 .div61,.div62,.div63 h3{
+  font-size: 5vw;
+  left: 0;
+}
+.div6 .div63 h3{
+  font-size: 5vw;
+}
+@keyframes k1{
+  
+  0% { left: 0vh; top:5vh;}
+  100%  { left:0vh; top:0vh;}
+}
+.div611{
+  width: 4vh;
+  height: 4vh;
+  background-color: #ffffff;
+  border: solid 1px #aaaaaa;
+  border-radius: 50%;
+  margin-bottom: 5vh;
+  position: relative;
+  z-index: 10000;
+  animation-name: k1;
+  animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.div7{
+  width: 100%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.div7 .div71 h2{
+  font-size: 50px;
+}
+.div72{
+  margin-right: 10vw;
+}
+.div72 h3{
+  border-bottom: solid 1px #aaa;
+  padding-bottom: 20px;
+}
+.div7 .div72 h3,a{
+  font-size: 25px;
+  color: #000000;
+  
+}
+.btn2{
+  padding: 3vw;
+  margin-top: 6vh;
+  border-radius: 10px; 
+}
+.div8{
+  display: none;
+}
+.bottomvideo{
+  display: none;
+}
+.footer{
+  display: none;
+}
+.overlay2{
+  display: none;
+}
